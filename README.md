@@ -38,9 +38,6 @@ In schimb, apasarea lunga a butonului de stop va opri incarcarea fortat si va re
 - **Butonul Start**: O apasare initiaza procesul de incarcare daca statia este disponibila. In alte cazuri, butonul nu are efect.
 - **Butonul Stop**: Apasand si tinand apasat timp de cel putin 1 secunda opreste procesul de incarcare.
 
-## Demonstratie Video
-[Demonstratie Video](https://youtube.com/shorts/J3dgeJ_FG_0)  
-
 ## Procesul de incarcare
 1. Cand incepe incarcarea, LED-ul RGB devine rosu.
 2. Primul LED de progres (L1) clipeste timp de 3 secunde (reprezentand o incarcare de 25%) si apoi ramane aprins.
@@ -64,11 +61,7 @@ Codul Arduino utilizat in proiect consta in mai multe functii:
 
 - **`void resetareLEDuriIncarcare()`**: Reseteaza starea tuturor LED-urilor de progres la OFF.
 
-## Schema electrica (TinkerCAD)
-
-![Diagrama electrica](./schema-circuit.png)
-
-## Aranjarea PIN-urilor
+## Aranjarea Pinilor
 - **RGB LED:**
   - Red: Pin 6
   - Green: Pin 4
@@ -79,6 +72,14 @@ Codul Arduino utilizat in proiect consta in mai multe functii:
   - L4 (100%): Pin 7
 - **Buton Start**: Pin 3
 - **Buton Stop**: Pin 2
+
+
+## Schema electrica (TinkerCAD)
+
+![Diagrama electrica](./schema-circuit.png)
+
+## Demonstratie Video
+[Demonstratie Video](https://youtube.com/shorts/J3dgeJ_FG_0) 
 
 ## Poze ale ansamblului
 ![poza 1](./poza1.jpeg)
