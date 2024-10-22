@@ -11,6 +11,17 @@ Acest proiect simuleaza o statie de incarcare a vehiculelor electrice de baza fo
 Apasarea scurta a butonului de start va porni incarcarea, dar apasarea acestui buton in timpul incarcarii nu va face nimic.
 In schimb, apasarea lunga a butonului de stop va opri incarcarea fortat si va reseta statia la starea libera cu toate ca apasarea acestui buton cat timp statia este libera nu va face nimic.
 
+## Componente
+- **Arduino Uno**
+- **1x LED RGB** (pentru a indica starea statiei)
+- **4x LED-uri** (pentru a simula progresul incarcarii)
+- **2x Butoane push** (Start si Stop)
+- **6x Rezistente de 220Ω** (pentru limitarea curentului)
+- **2x Rezistente de 1kΩ** (pentru pull-down la butoane)
+- **Breadboard**
+- **Fire de legatura**
+
+
 ## Prezentare functionala
 
 ### LED RGB: Arata disponibilitatea statiei:
@@ -37,15 +48,6 @@ In schimb, apasarea lunga a butonului de stop va opri incarcarea fortat si va re
 4. Dupa finalizarea incarcarii, toate LED-urile clipesc de 3 ori pentru a semnala sfarsitul procesului.
 5. Daca butonul stop este tinut apasat in timpul incarcarii, procesul se opreste, toate LED-urile clipesc de 3 ori, iar LED-ul RGB devine verde.
 
-## Componente
-- **Arduino Uno**
-- **1x LED RGB** (pentru a indica starea statiei)
-- **4x LED-uri** (pentru a simula progresul incarcarii)
-- **2x Butoane push** (Start si Stop)
-- **6x Rezistente de 220Ω** (pentru limitarea curentului)
-- **2x Rezistente de 1kΩ** (pentru pull-down la butoane)
-- **Breadboard**
-- **Fire jumper**
 
 ## Cod
 Codul Arduino utilizat in proiect consta in mai multe functii:
