@@ -28,7 +28,7 @@ In schimb, apasarea lunga a butonului de stop va opri incarcarea fortat si va re
 - **Butonul Stop**: Apasand si tinand apasat timp de cel putin 1 secunda opreste procesul de incarcare.
 
 ## Demonstratie Video
-[Demonstratie Video](https://youtube.com/shorts/sWMjii-Xfsc)  
+[Demonstratie Video](https://youtube.com/shorts/J3dgeJ_FG_0)  
 
 ## Procesul de incarcare
 1. Cand incepe incarcarea, LED-ul RGB devine rosu.
