@@ -16,7 +16,7 @@ In schimb, apasarea lunga a butonului de stop va opri incarcarea fortat si va re
 - **1x LED RGB** (pentru a indica starea statiei)
 - **4x LED-uri** (pentru a simula progresul incarcarii)
 - **2x Butoane push** (Start si Stop)
-- **6x Rezistente de 220Ω** (pentru limitarea curentului)
+- **7x Rezistente de 220Ω** (pentru limitarea curentului)
 - **2x Rezistente de 1kΩ** (pentru pull-down la butoane)
 - **Breadboard**
 - **Fire de legatura**
