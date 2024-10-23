@@ -64,8 +64,8 @@ Codul Arduino utilizat in proiect consta in mai multe functii:
 ## Aranjarea Pinilor
 - **RGB LED:**
   - Red: Pin 6
-  - Green: Pin 4
-  - Blue: Pin 5
+  - Green: Pin 5
+  - Blue: Pin 4
   - L1 (25%): Pin 10
   - L2 (50%): Pin 9
   - L3 (75%): Pin 8
