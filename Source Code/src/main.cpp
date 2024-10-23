@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
 const int ledRGB_R = 6;
-const int ledRGB_G = 4;
-const int ledRGB_B = 5;
+const int ledRGB_G = 5;
+const int ledRGB_B = 4;
 const int ledL1 = 10;
 const int ledL2 = 9;
 const int ledL3 = 8;
